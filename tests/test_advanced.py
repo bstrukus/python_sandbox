@@ -11,6 +11,9 @@ class AdvancedTestSuite(unittest.TestCase):
     def test_thoughts(self):
         self.assertIsNone(sample.hmm())
 
+    def test_problems(self):
+        self.assertIsNone(sample.hrm())
+
 
 if __name__ == '__main__':
     unittest.main()
